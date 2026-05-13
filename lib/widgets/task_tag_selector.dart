@@ -32,7 +32,7 @@ class TaskTagSelector extends StatelessWidget {
           },
           child: AnimatedContainer(
             duration: const Duration(milliseconds: 300),
-            curve: Curves.easeOutBack, // springy feel
+            curve: Curves.easeOut, // springy feel
             margin: const EdgeInsets.symmetric(horizontal: 6),
             padding: EdgeInsets.symmetric(
               horizontal: isSelected ? 20 : 14,
@@ -55,7 +55,13 @@ class TaskTagSelector extends StatelessWidget {
                         spreadRadius: 0,
                       )
                     ]
-                  : [],
+                  : [
+                      const BoxShadow(
+                        color: Colors.transparent,
+                        blurRadius: 0,
+                        spreadRadius: 0,
+                      )
+                  ],
             ),
             child: Row(
               children: [

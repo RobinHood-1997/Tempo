@@ -181,7 +181,7 @@ class _AnimatedStartButton extends StatelessWidget {
       onTap: onPressed,
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 300),
-        curve: Curves.easeOutBack,
+        curve: Curves.easeOut,
         padding: EdgeInsets.symmetric(
           horizontal: isRunning ? 40 : 52,
           vertical: 16,

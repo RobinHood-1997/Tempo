@@ -35,6 +35,7 @@ class StatsScreen extends ConsumerWidget {
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
 
@@ -75,6 +76,7 @@ class StatsScreen extends ConsumerWidget {
                     ),
                   )
                 : Column(
+                    mainAxisSize: MainAxisSize.min,
                     children: sessions
                         .take(10) // show last 10 only
                         .map((s) => _SessionTile(session: s))

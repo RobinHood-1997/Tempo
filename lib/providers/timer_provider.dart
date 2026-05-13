@@ -54,7 +54,7 @@ class TimerNotifier extends StateNotifier<TimerState> {
   int _elapsedSeconds = 0; //track how long they actually focused.
 
   TimerNotifier(this._repository):super(const TimerState(
-    secondsRemaining: 5, //25 minutes
+    secondsRemaining: 1500, //25 minutes
     isRunning: false,
     isBreak: false,
   ));

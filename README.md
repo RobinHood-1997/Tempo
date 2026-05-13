@@ -42,4 +42,8 @@ This was my first Flutter app. Key concepts I worked through:
 - Pure Dart algorithms for the insight engine
 
 ## Demo
+<<<<<<< HEAD
 [Add your screen recording link here]
+=======
+[Add your screen recording link here]
+>>>>>>> b0206189f96e0cc7404fa8446f6184496e8b9bab
